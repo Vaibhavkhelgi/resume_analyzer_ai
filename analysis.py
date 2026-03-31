@@ -11,7 +11,7 @@ from pdf import extractpdf
 key = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=key)
 
-model = genai.GenerativeModel('gemini-2.5-flash')
+model = genai.GenerativeModel('gemini-2.0-flash')
 
 def analyze_resume(pdf_doc,job_des):
     
